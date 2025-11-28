@@ -22,14 +22,6 @@ const props = defineProps({
         >
           <Menu class="w-6 h-6 rounded-full" />
         </button>
-
-        <!-- <div v-html="props.child">
-          {{ props.child }}
-          <router-link to="#" class="flex items-center gap-2">
-            <img src="../assets/logo.svg" alt="logo" class="w-7" />
-            <h1 class="text-2xl">Classroom</h1>
-          </router-link>
-        </div> -->
         <slot name="child"></slot>
       </div>
       <div class="kanan">

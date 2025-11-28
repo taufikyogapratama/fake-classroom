@@ -11,7 +11,7 @@ const defaultPlaceholder = today(getLocalTimeZone());
 <template>
   <div>
     <div class="flex justify-center md:justify-normal md:px-5 mt-5 mb-5">
-      <select class="min-w-80 h-10 border">
+      <select class="min-w-80 h-10 border px-3">
         <option value="Semua kelas">Semua kelas</option>
         <option value="pemrograman web praktik">
           Pemrograman Web Praktik (IX)
