@@ -1,11 +1,8 @@
 import Beranda from "@/pages/Beranda.vue";
-import DaftarTugas from "@/pages/DaftarTugas.vue";
-import DaftarTugasBelum from "@/pages/DaftarTugasBelum.vue";
-import DaftarTugasDitugaskan from "@/pages/DaftarTugasDitugaskan.vue";
-import DaftarTugasSelesai from "@/pages/DaftarTugasSelesai.vue";
+import DaftarTugas from "@/pages/DaftarTugas/DaftarTugas.vue";
 import Kalender from "@/pages/Kalender.vue";
 import KelasArsip from "@/pages/KelasArsip.vue";
-import PWP from "@/pages/PWP.vue";
+import PWP from "@/pages/Kelas/PWP.vue";
 import Setting from "@/pages/Setting.vue";
 import { createRouter, createWebHistory } from "vue-router";
 

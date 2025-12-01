@@ -12,15 +12,12 @@
     </div>
     <div>
       <img
-        src="../assets/empty.svg"
+        src="../../assets/empty.svg"
         alt="image empty"
         class="w-80 mx-auto mt-10"
       />
       <p class="text-center font-semibold text-gray-600">
-        Tidak ada apa pun di daftar tugas Anda saat ini
-      </p>
-      <p class="text-center font-semibold text-gray-600">
-        Periksa kembali nanti untuk tugas baru
+        Sepertinya tidak ada yang belum diserahkan. Bagus!
       </p>
     </div>
   </div>

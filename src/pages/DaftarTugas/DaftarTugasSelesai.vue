@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Accordion from "@/components/Accordion.vue";
+</script>
 
 <template>
   <div>
@@ -10,15 +12,8 @@
         </option>
       </select>
     </div>
-    <div>
-      <img
-        src="../assets/empty.svg"
-        alt="image empty"
-        class="w-80 mx-auto mt-10"
-      />
-      <p class="text-center font-semibold text-gray-600">
-        Sepertinya tidak ada yang belum diserahkan. Bagus!
-      </p>
+    <div class="mt-5 w-full md:w-[600px] px-6 md:px-5">
+      <Accordion />
     </div>
   </div>
 </template>
