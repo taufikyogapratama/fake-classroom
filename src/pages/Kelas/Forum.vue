@@ -26,7 +26,7 @@ import { ClipboardList, EllipsisVertical, Pencil } from "lucide-vue-next";
       <div
         class="flex items-center justify-between mb-5 bg-gray-200 hover:bg-gray-300 px-5 py-2 rounded-2xl"
       >
-        <div class="flex gap-5">
+        <div class="flex gap-5 text-nowrap overflow-hidden">
           <div class="bg-blue-500 inline-block p-2 rounded-full">
             <ClipboardList class="text-white" />
           </div>
@@ -56,7 +56,7 @@ import { ClipboardList, EllipsisVertical, Pencil } from "lucide-vue-next";
       <div
         class="flex items-center justify-between mb-5 bg-gray-200 hover:bg-gray-300 px-5 py-2 rounded-2xl"
       >
-        <div class="flex gap-5">
+        <div class="flex gap-5 text-nowrap overflow-hidden">
           <div class="bg-blue-500 inline-block p-2 rounded-full">
             <ClipboardList class="text-white" />
           </div>
